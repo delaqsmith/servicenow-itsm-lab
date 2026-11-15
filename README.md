@@ -225,13 +225,9 @@ Configure the incident using the following information:
 
 | Field | Value |
 |-------|-------|
-| Caller | System Administrator (demo user) |
-| Category | Software |
-| Subcategory | Email |
+| Caller | Jane Doe (demo user) |
 | Short Description | User cannot access Outlook - Cannot connect to server |
-| Impact | 2 - Medium |
 | Urgency | 3 - Low |
-| Assignment Group | Service Desk |
 | State | New |
 
 Select **Submit** to create the incident.
@@ -265,10 +261,9 @@ This process promotes consistent incident prioritization rather than relying sol
 
 **📸 Screenshot Evidence**
 
-<img width="952" height="170" alt="image" src="https://github.com/user-attachments/assets/9e66964a-7ecd-46ba-a63e-9f8bb5562544" />
+<img width="949" height="169" alt="image" src="https://github.com/user-attachments/assets/ace29b70-ad5f-4940-a7a1-b698dbf2b598" />
 
-
-<img width="723" height="101" alt="image" src="https://github.com/user-attachments/assets/954e53a0-6041-40ce-9148-c0977a8d6644" />
+<img width="1436" height="195" alt="image" src="https://github.com/user-attachments/assets/0eb0523d-0b5a-43fc-8e2d-62c635eb021f" />
 
 
 ### 2.2 Assign and Begin Working the Incident
