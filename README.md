@@ -5,7 +5,7 @@
 **Domain:** IT Support / IT Service Management (ITSM)  
 **Platform:** ServiceNow Personal Developer Instance (PDI)  
 **Framework:** ITIL  
-**Environment:** ServiceNow Yokohama (or available release)  
+**Environment:** ServiceNow Brazil (or available release)  
 **Project Type:** Hands-On IT Support Simulation  
 
 ---
@@ -128,7 +128,7 @@ The project uses a ServiceNow Personal Developer Instance (PDI), providing an is
 |-----------|---------------|
 | Platform | ServiceNow |
 | Instance Type | Personal Developer Instance |
-| Release | Yokohama / Available Release |
+| Release | Brazil / Available Release |
 | User Role | Administrator |
 | Environment | Cloud-hosted developer sandbox |
 | Data | ServiceNow demonstration records |
@@ -166,7 +166,7 @@ Establish an isolated ServiceNow environment with administrative access to the I
 ### 1.2 Provision a Personal Developer Instance
 
 1. Select **Request Instance** from the Developer Portal.
-2. Choose the Yokohama release or an available supported release.
+2. Choose the Brazil release or an available supported release.
 3. Submit the instance request.
 4. Wait for provisioning to complete.
 5. Record the instance URL and administrator username.
@@ -191,9 +191,11 @@ The PDI provides a sandbox for testing ServiceNow configurations without affecti
 
 **📸 Screenshot Evidence**
 
-`[Insert Screenshot 01: ServiceNow Developer Instance Dashboard]`
+<img width="959" height="434" alt="image" src="https://github.com/user-attachments/assets/4aae1506-9b4c-4ade-80d0-52d976278a46" />
 
-`[Insert Screenshot 02: ServiceNow Application Navigator]`
+
+<img width="483" height="374" alt="image" src="https://github.com/user-attachments/assets/22800960-93b4-4e24-b5c4-dedef3b810da" />
+
 
 ---
 
@@ -223,7 +225,7 @@ Configure the incident using the following information:
 
 | Field | Value |
 |-------|-------|
-| Caller | Jane Doe (demo user) |
+| Caller | System Administrator (demo user) |
 | Category | Software |
 | Subcategory | Email |
 | Short Description | User cannot access Outlook - Cannot connect to server |
@@ -239,7 +241,7 @@ Record the generated incident number.
 **Example:**
 
 ```text
-INC0010001
+INC0010005
 ```
 
 The actual incident number depends on the instance.
@@ -251,10 +253,10 @@ ServiceNow commonly uses an Impact/Urgency priority matrix to determine incident
 For this scenario:
 
 ```text
-Impact: 2 - Medium
+Impact: 3 - Low
 Urgency: 3 - Low
 
-Calculated Priority: 3 - Moderate
+Calculated Priority: 4 - Low
 ```
 
 The resulting priority depends on the instance's configured priority lookup rules.
@@ -263,9 +265,11 @@ This process promotes consistent incident prioritization rather than relying sol
 
 **📸 Screenshot Evidence**
 
-`[Insert Screenshot 03: Newly Created Incident Record]`
+<img width="952" height="170" alt="image" src="https://github.com/user-attachments/assets/9e66964a-7ecd-46ba-a63e-9f8bb5562544" />
 
-`[Insert Screenshot 04: Incident Priority and Assignment Fields]`
+
+<img width="723" height="101" alt="image" src="https://github.com/user-attachments/assets/954e53a0-6041-40ce-9148-c0977a8d6644" />
+
 
 ### 2.2 Assign and Begin Working the Incident
 
