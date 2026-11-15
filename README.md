@@ -191,11 +191,7 @@ The PDI provides a sandbox for testing ServiceNow configurations without affecti
 
 **📸 Screenshot Evidence**
 
-<img width="959" height="434" alt="image" src="https://github.com/user-attachments/assets/4aae1506-9b4c-4ade-80d0-52d976278a46" />
-
-
-<img width="483" height="374" alt="image" src="https://github.com/user-attachments/assets/22800960-93b4-4e24-b5c4-dedef3b810da" />
-
+<img width="1919" height="864" alt="image" src="https://github.com/user-attachments/assets/d9c90e42-515b-4481-afbc-fb93186f8471" />
 
 ---
 
@@ -225,9 +221,13 @@ Configure the incident using the following information:
 
 | Field | Value |
 |-------|-------|
-| Caller | Jane Doe (demo user) |
+| Caller | Allie Pumphrey (demo user) |
+| Category | Software |
+| Channel | Email |
 | Short Description | User cannot access Outlook - Cannot connect to server |
+| Impact | 3 - Low |
 | Urgency | 3 - Low |
+| Assignment Group | Service Desk |
 | State | New |
 
 Select **Submit** to create the incident.
@@ -237,7 +237,7 @@ Record the generated incident number.
 **Example:**
 
 ```text
-INC0010005
+INC0010007
 ```
 
 The actual incident number depends on the instance.
@@ -249,7 +249,7 @@ ServiceNow commonly uses an Impact/Urgency priority matrix to determine incident
 For this scenario:
 
 ```text
-Impact: 3 - Low
+Impact: 2 - Medium
 Urgency: 3 - Low
 
 Calculated Priority: 4 - Low
@@ -261,16 +261,14 @@ This process promotes consistent incident prioritization rather than relying sol
 
 **📸 Screenshot Evidence**
 
-<img width="949" height="169" alt="image" src="https://github.com/user-attachments/assets/ace29b70-ad5f-4940-a7a1-b698dbf2b598" />
-
-<img width="1436" height="195" alt="image" src="https://github.com/user-attachments/assets/0eb0523d-0b5a-43fc-8e2d-62c635eb021f" />
+<img width="1919" height="539" alt="image" src="https://github.com/user-attachments/assets/b68dbfc4-3934-45d1-875f-aaba6991ef2f" />
 
 
 ### 2.2 Assign and Begin Working the Incident
 
 1. Navigate to **Incident → All**.
 2. Locate the newly created incident.
-3. Open the incident record.
+3. Click on the incident number.
 4. Change the State from **New** to **In Progress**.
 5. Assign the incident to the administrator account acting as the support analyst.
 6. Select **Update**.
@@ -279,34 +277,9 @@ The state transition indicates that the incident has been accepted for investiga
 
 ### 2.3 Document Troubleshooting Activities
 
-The Work Notes field provides an internal record of troubleshooting actions performed by IT personnel.
+The Comments field provides an internal record of troubleshooting actions performed by IT personnel.
 
-For the simulated Outlook connectivity incident, the following diagnostic workflow can be documented.
-
-**Example Work Notes:**
-
-```text
-User reported that Microsoft Outlook could not connect
-to the organization's email server.
-
-Troubleshooting performed:
-
-1. Confirmed the reported Outlook error message.
-2. Checked the workstation's network connectivity.
-3. Verified access to other network resources.
-4. Reviewed Outlook connection settings.
-5. Checked the Outlook profile and cached mailbox data.
-6. Identified a potential issue with the local
-   Outlook profile or cached data file.
-
-Resolution action:
-Recreated the affected Outlook profile and allowed
-the mailbox cache to rebuild.
-
-Validation:
-Confirmed successful Outlook connection and mailbox
-synchronization in the simulated scenario.
-```
+For the simulated Outlook connectivity incident, the diagnostic workflow can be documented.
 
 These notes represent a sample troubleshooting scenario and should be adjusted to reflect the actions actually performed or simulated in the lab.
 
@@ -314,9 +287,10 @@ After entering the notes, select **Update** to save the record.
 
 **📸 Screenshot Evidence**
 
-`[Insert Screenshot 05: Incident Assigned and In Progress]`
+<img width="1842" height="464" alt="image" src="https://github.com/user-attachments/assets/916adcfb-ebec-4f58-9e59-c92ccbf4cdd2" />
 
-`[Insert Screenshot 06: Documented Troubleshooting Work Notes]`
+<img width="757" height="280" alt="image" src="https://github.com/user-attachments/assets/d7bcef4d-e4d1-44b0-8483-d86f98d68a97" />
+
 
 ### 2.4 Resolve the Incident
 
@@ -328,32 +302,9 @@ After documenting the simulated resolution:
 4. Enter the resolution notes.
 5. Save the record.
 
-**Example Resolution Notes:**
-
-```text
-Issue:
-Microsoft Outlook failed to connect to the email server.
-
-Root cause assessment:
-The local Outlook profile or cached mailbox data
-was suspected to be corrupted.
-
-Resolution:
-Recreated the Outlook profile and rebuilt the
-local mailbox cache.
-
-Verification:
-Email connectivity and synchronization were
-confirmed as restored in the simulated scenario.
-```
-
-**Resolution Code:**
-
-```text
-Solved (Permanently)
-```
-
 Use the closest applicable resolution code available in the instance.
+
+<img width="1840" height="542" alt="image" src="https://github.com/user-attachments/assets/89310ae8-3213-40a7-839e-e291fae1b68c" />
 
 ### 2.5 Close the Incident
 
@@ -376,13 +327,10 @@ Confirm that the record contains:
 - State changes.
 - Troubleshooting work notes.
 - Resolution details.
-- Closure information.
+- Closure Informaation
 
-**📸 Screenshot Evidence**
+<img width="1390" height="563" alt="image" src="https://github.com/user-attachments/assets/5005c82f-1f37-49e0-a95a-92d91c7ffdfa" />
 
-`[Insert Screenshot 07: Incident Resolution Notes]`
-
-`[Insert Screenshot 08: Closed Incident and Activity History]`
 
 ### Outcome
 
