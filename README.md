@@ -366,7 +366,8 @@ Navigate to:
 | Field | Configuration |
 |-------|---------------|
 | Name | New Laptop Request |
-| Category | Hardware |
+| Catalogs | Service Catalog |
+| Category | Laptops |
 | Short Description | Request a new or replacement laptop |
 | Description | Submit a request for a new or replacement laptop. Requests are reviewed within two business days, with an estimated delivery timeframe of five to seven business days. |
 
@@ -374,9 +375,8 @@ The review and delivery timeframes are illustrative service expectations for thi
 
 3. Save the catalog item.
 
-**📸 Screenshot Evidence**
+<img width="1919" height="631" alt="image" src="https://github.com/user-attachments/assets/f3d6951f-190b-44c6-8004-be4821087cfd" />
 
-`[Insert Screenshot 09: New Laptop Request Catalog Item Configuration]`
 
 ### 3.2 Configure Request Variables
 
@@ -386,7 +386,7 @@ Open the newly created catalog item and locate the **Variables** related list.
 
 Create the following variables:
 
-| Variable | Type | Mandatory |
+| Question | Type | Mandatory |
 |----------|------|-----------|
 | Requester Name | Single Line Text | Yes |
 | Business Justification | Multi Line Text | Yes |
@@ -411,9 +411,11 @@ Optional fields allow flexibility without creating unnecessary barriers for user
 
 **📸 Screenshot Evidence**
 
-`[Insert Screenshot 10: Catalog Item Variables]`
+<img width="1886" height="619" alt="image" src="https://github.com/user-attachments/assets/aad5b4fc-b57e-429d-b530-91929d220b91" />
 
-`[Insert Screenshot 11: Laptop Model Selection Choices]`
+
+<img width="934" height="182" alt="image" src="https://github.com/user-attachments/assets/7f256a5c-28e2-4fcd-8916-4a7631f92307" />
+
 
 ### 3.3 Validate the Self-Service Portal
 
@@ -446,13 +448,6 @@ Depending on the catalog workflow, the request may also generate a Requested Ite
 - The request can be submitted.
 - A request record is generated.
 
-**📸 Screenshot Evidence**
-
-`[Insert Screenshot 12: New Laptop Request in Service Portal]`
-
-`[Insert Screenshot 13: Completed Laptop Request Form]`
-
-`[Insert Screenshot 14: Submitted Request Confirmation]`
 
 ### Outcome
 
