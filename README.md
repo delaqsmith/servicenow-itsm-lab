@@ -448,6 +448,10 @@ Depending on the catalog workflow, the request may also generate a Requested Ite
 - The request can be submitted.
 - A request record is generated.
 
+<img width="992" height="664" alt="image" src="https://github.com/user-attachments/assets/98cbca4e-45d9-4174-8497-594cf605fbc4" />
+
+<img width="1687" height="158" alt="image" src="https://github.com/user-attachments/assets/c06a74ab-4486-45b0-bc86-4ac0334989fe" />
+
 
 ### Outcome
 
@@ -510,9 +514,8 @@ Pilot testing will be completed before broad deployment.
 
 Save the change request.
 
-**📸 Screenshot Evidence**
+<img width="1919" height="782" alt="image" src="https://github.com/user-attachments/assets/7581d0e3-ea28-48f4-b9bf-97653044baca" />
 
-`[Insert Screenshot 15: New Change Request Configuration]`
 
 ### 4.2 Document Implementation Planning
 
@@ -567,6 +570,9 @@ the scope and severity of the issue.
 
 Save the planning information.
 
+<img width="1918" height="810" alt="image" src="https://github.com/user-attachments/assets/e942e98d-c8ec-42a8-b085-aa3611bb55a1" />
+
+
 ### 4.3 Request Change Approval
 
 1. Open the change request.
@@ -588,15 +594,8 @@ Within the isolated developer environment, use an authorized test approver to si
 5. Verify that the approval is recorded.
 6. Confirm that the change advances to its next configured state.
 
-**Important:** Production change management should enforce separation of duties. The requester should not approve their own change unless organizational policy explicitly permits it.
+<img width="959" height="408" alt="image" src="https://github.com/user-attachments/assets/0e0ae1d2-a18c-4be8-b5a1-5944604d9b92" />
 
-**📸 Screenshot Evidence**
-
-`[Insert Screenshot 16: Change Implementation and Test Plans]`
-
-`[Insert Screenshot 17: Change Approval Record]`
-
-`[Insert Screenshot 18: Authorized Change Request]`
 
 ### Outcome
 
@@ -634,7 +633,7 @@ Configure the report:
 | Setting | Value |
 |---------|-------|
 | Report Name | Incident Volume by Priority |
-| Table / Data Source | Incident [incident] |
+| Table | Incident [incident] |
 | Visualization | Bar Chart |
 | Group By | Priority |
 | Filter | Created within the last 90 days |
@@ -652,9 +651,8 @@ The resulting visualization groups incident records by their assigned priority.
 
 A large number of low-priority incidents does not automatically indicate healthy operations; incident volume must be interpreted alongside service impact, resolution performance, and organizational context.
 
-**📸 Screenshot Evidence**
+<img width="1441" height="614" alt="image" src="https://github.com/user-attachments/assets/3e4f8548-f086-485f-b3a8-79a3096ec19e" />
 
-`[Insert Screenshot 19: Incident Volume by Priority Bar Chart]`
 
 ### 5.2 Create an Open Incidents by Category Report
 
@@ -680,9 +678,8 @@ These conditions provide a simplified view of unresolved incidents. Depending on
 - Consider whether ticket distribution indicates training or staffing needs.
 - Investigate categories with unusually high unresolved volumes.
 
-**📸 Screenshot Evidence**
+<img width="1160" height="630" alt="image" src="https://github.com/user-attachments/assets/e8bd0b3e-07cb-4c10-b878-7aba67d0ca3a" />
 
-`[Insert Screenshot 20: Open Incidents by Category Pie Chart]`
 
 ### 5.3 Interpret Operational Results
 
@@ -690,17 +687,11 @@ Record observations from both reports.
 
 | Metric | Observation |
 |--------|-------------|
-| Most Common Priority | [Insert observed priority] |
-| Highest-Volume Open Category | [Insert observed category] |
-| High-Priority Incident Count | [Insert observed count] |
-| Total Open Incidents | [Insert observed count] |
-| Recommended Action | [Insert recommendation based on findings] |
+| Most Common Priority | Critical |
+| Highest-Volume Open Category | Inquiry |
+| High-Priority Incident Count | 1 |
+| Total Open Incidents | 69 |
 
-**Example Interpretation:**
-
-If software incidents account for the largest proportion of open tickets, the IT department could review recurring application issues, improve knowledge base documentation, or investigate common software configuration problems.
-
-Recommendations should be based on the actual report results rather than assumed trends.
 
 ### Outcome
 
