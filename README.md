@@ -409,7 +409,6 @@ Mandatory fields reduce incomplete requests and help IT teams gather the informa
 
 Optional fields allow flexibility without creating unnecessary barriers for users.
 
-**📸 Screenshot Evidence**
 
 <img width="1886" height="619" alt="image" src="https://github.com/user-attachments/assets/aad5b4fc-b57e-429d-b530-91929d220b91" />
 
@@ -726,15 +725,13 @@ Configure the record:
 | Field | Value |
 |-------|-------|
 | Category | Software |
-| Short Description | Recurring Outlook OST corruption on Wi-Fi connected laptops |
-| State | New / Assess |
-| Related Service | Email / Microsoft Outlook, if available |
+| Problem Statement | Recurring Outlook OST corruption on Wi-Fi connected laptops |
+| State | New |
+| Service | Email / Microsoft Outlook, if available |
 
 Save the record.
 
-**📸 Screenshot Evidence**
-
-`[Insert Screenshot 21: New Problem Record]`
+<img width="959" height="318" alt="image" src="https://github.com/user-attachments/assets/5c5bf93a-a7a8-41f0-9322-40238307b7d7" />
 
 ### 6.2 Document Root Cause Analysis
 
@@ -766,6 +763,9 @@ Unconfirmed - further technical validation required.
 
 A network disconnection alone does not establish OST corruption as the root cause. Additional evidence is required before confirming this diagnosis.
 
+<img width="820" height="334" alt="image" src="https://github.com/user-attachments/assets/0f826d36-a210-4cf1-a9d2-ed50a0d426dd" />
+
+
 ### 6.3 Document a Workaround
 
 **Example Workaround:**
@@ -782,9 +782,12 @@ A network disconnection alone does not establish OST corruption as the root caus
 
 Rebuilding an Outlook cache should follow appropriate data protection and support procedures.
 
+<img width="821" height="325" alt="image" src="https://github.com/user-attachments/assets/ce361e9b-5741-4fce-88d0-4e05c31778d1" />
+
+
 ### 6.4 Propose Permanent Corrective Actions
 
-**Proposed Remediation Plan:**
+**Proposed Fix:**
 
 ```text
 1. Identify affected devices and network locations.
@@ -798,6 +801,7 @@ Rebuilding an Outlook cache should follow appropriate data protection and suppor
 ```
 
 Potential corrective actions must be tested before organization-wide deployment.
+
 
 ### 6.5 Link the Problem to the Incident
 
@@ -832,14 +836,6 @@ Once the root cause has been validated:
 4. Save the record.
 5. Verify that the related incident remains linked.
 
-**📸 Screenshot Evidence**
-
-`[Insert Screenshot 22: Problem Root Cause and Workaround Documentation]`
-
-`[Insert Screenshot 23: Linked Incident and Problem Record]`
-
-`[Insert Screenshot 24: Known Error Classification, If Validated]`
-
 ### Outcome
 
 This exercise demonstrates the relationship between Incident Management and Problem Management.
@@ -856,20 +852,20 @@ Mark each item complete only after confirming the result in the ServiceNow insta
 
 | Test | Expected Result | Status |
 |------|-----------------|--------|
-| Developer Instance Access | Administrator can access the platform | [Pending / Pass] |
-| Incident Creation | Incident number generated | [Pending / Pass] |
-| Priority Calculation | Priority assigned according to configured matrix | [Pending / Pass] |
-| Incident Assignment | Assigned analyst and group saved | [Pending / Pass] |
-| Work Note Documentation | Notes visible in activity history | [Pending / Pass] |
-| Incident Resolution | Resolution details saved | [Pending / Pass] |
-| Incident Closure | State updated to Closed | [Pending / Pass] |
-| Catalog Item Publication | Item visible in self-service portal | [Pending / Pass] |
-| Catalog Request Submission | Request record generated | [Pending / Pass] |
-| Change Approval | Approval recorded successfully | [Pending / Pass] |
-| Priority Report | Bar chart generated | [Pending / Pass] |
-| Category Report | Pie chart generated | [Pending / Pass] |
-| Problem Creation | Problem record generated | [Pending / Pass] |
-| Incident-Problem Link | Relationship visible in both records | [Pending / Pass] |
+| Developer Instance Access | Administrator can access the platform | [Pass] |
+| Incident Creation | Incident number generated | [Pass] |
+| Priority Calculation | Priority assigned according to configured matrix | [Pass] |
+| Incident Assignment | Assigned analyst and group saved | [Pass] |
+| Work Note Documentation | Notes visible in activity history | [Pass] |
+| Incident Resolution | Resolution details saved | [Pass] |
+| Incident Closure | State updated to Closed | [Pass] |
+| Catalog Item Publication | Item visible in self-service portal | [Pass] |
+| Catalog Request Submission | Request record generated | [Pass] |
+| Change Approval | Approval recorded successfully | [Pass] |
+| Priority Report | Bar chart generated | [Pass] |
+| Category Report | Pie chart generated | [Pass] |
+| Problem Creation | Problem record generated | [Pass] |
+| Incident-Problem Link | Relationship visible in both records | [Pass] |
 
 ---
 
